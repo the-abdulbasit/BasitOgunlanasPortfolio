@@ -1,6 +1,6 @@
-import imgImage42 from "figma:asset/0cb2572dac885826b37579189c7f59e6db4013cb.png";
-import imgImage44 from "figma:asset/f6a06cd32750e5dc2f9b661ae0f85c19d87377c4.png";
-import imgImage46 from "figma:asset/f6a06cd32750e5dc2f9b661ae0f85c19d87377c4.png";
+const imgImage42 = "https://res.cloudinary.com/du2cyv70g/image/upload/v1769351520/work18_ybkpxv.png";
+const imgImage44 = "https://res.cloudinary.com/du2cyv70g/image/upload/v1769352081/work16_l5b920.png";
+const imgImage46 = "https://res.cloudinary.com/du2cyv70g/image/upload/v1769352082/work10_xxwlrn.png";
 import { forwardRef } from 'react';
 
 interface WorkContainerProps {
