@@ -16,9 +16,11 @@ function AboutContainer() {
 
 function BottomGradient() {
   return (
-    <div className="fixed bottom-0 h-[64px] left-0 w-full pointer-events-none z-10" data-name="Bottom Gradient">
-      <img alt="" className="absolute backdrop-blur-[3px] inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBottomGradient} />
-    </div>
+    <div 
+      className="fixed bottom-0 left-0 w-full h-[64px] pointer-events-none z-10 bg-gradient-to-b from-transparent to-[#0a0a0a]" 
+      style={{ backdropFilter: 'blur(4px)' }}
+      data-name="Bottom Gradient"
+    />
   );
 }
 
