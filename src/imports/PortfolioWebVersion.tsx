@@ -1,4 +1,3 @@
-import imgBottomGradient from "figma:asset/a94a0d0c9f07f2f8242a0a39140baa0bb20ed7a6.png";
 import AboutSection from "./AboutSection";
 import WorkSection from "./WorkSection";
 import { useState, useEffect, useRef } from 'react';
