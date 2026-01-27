@@ -133,7 +133,7 @@ function Contacts() {
 
 function TextContainer() {
   return (
-    <div className="content-stretch flex flex-col gap-[40px] items-start max-w-[512px] relative shrink-0 w-full" data-name="Text container">
+    <div className="content-stretch flex flex-col gap-[40px] items-start max-w-[504px] relative shrink-0 w-full" data-name="Text container">
       <NameTitle />
       <About />
       <Contacts />
