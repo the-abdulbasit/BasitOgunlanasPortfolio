@@ -1,7 +1,7 @@
 
-  # Portfolio Structure
+  # Basit's Portfolio
 
-  This is a code bundle for Portfolio Structure. The original project is available at https://www.figma.com/design/uZYUDEUNBrv3yA9ygXa1bi/Portfolio-Structure.
+  This is a code bundle for my portfolio. The original project is available at https://www.figma.com/design/uZYUDEUNBrv3yA9ygXa1bi/Portfolio-Structure.
 
   ## Running the code
 
