@@ -1,5 +1,5 @@
 import PortfolioWebVersion from './imports/PortfolioWebVersion';
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/web";
 
 export default function App() {
   return (
