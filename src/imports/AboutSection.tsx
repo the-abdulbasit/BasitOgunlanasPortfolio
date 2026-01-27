@@ -21,7 +21,7 @@ function About() {
 
   return (
     <div className="content-stretch flex flex-col font-['Inter',sans-serif] font-normal gap-[20px] items-start not-italic relative shrink-0 text-[#f5f5f5] text-[16px] w-full" data-name="About">
-      <p className="leading-[1.45] relative shrink-0 w-full">I surmise that the most satisfying interactions occur when sparks of curiosity meets memorable experiences—the allure of design as I like to call it.</p>
+      <p className="leading-[1.45] relative shrink-0 w-full">Designers often say the best design is subtle —– I believe the best design/interactions are not just efficient, rather they engage the user's curiosity and leave an impression.</p>
       <div className="leading-[1.45] relative shrink-0 w-full">
         <span>I enjoy being in the middle of what it takes to achieve that. From initial sketches to shipped digital products, I craft intuitive user experiences through design and </span>
         <span 
