@@ -6,8 +6,8 @@ import AcademicBreakPopUp from "./AcademicBreakPopUp";
 function NameTitle() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-start justify-center not-italic relative shrink-0" data-name="Name & Title">
-      <p className="font-['Inter',sans-serif] font-semibold leading-[1.45] relative shrink-0 text-white text-[20px]">Basit Ogunlana</p>
-      <p className="font-['Inter',sans-serif] font-medium leading-[1.45] relative shrink-0 text-[#f5f5f5] text-[14px]">
+      <p className="font-['Inter',sans-serif] font-semibold leading-[1.45] relative shrink-0 text-white text-[24px]">Basit Ogunlana</p>
+      <p className="font-['Inter',sans-serif] font-medium leading-[1.45] relative shrink-0 text-[#f5f5f5] text-[16px]">
         <span>Product Designer, </span>
         <span className="text-[#707070]">currently building GreshFi</span>
       </p>
@@ -20,7 +20,7 @@ function About() {
   const [showAcademicBreakPopup, setShowAcademicBreakPopup] = useState(false);
 
   return (
-    <div className="content-stretch flex flex-col font-['Inter',sans-serif] font-normal gap-[20px] items-start not-italic relative shrink-0 text-[#f5f5f5] text-[14px] w-full" data-name="About">
+    <div className="content-stretch flex flex-col font-['Inter',sans-serif] font-normal gap-[20px] items-start not-italic relative shrink-0 text-[#f5f5f5] text-[16px] w-full" data-name="About">
       <p className="leading-[1.45] relative shrink-0 w-full">Designers often say the best designs are subtle — I believe they are not just subtle, rather they engage the user's curiosity and impress.</p>
       <div className="leading-[1.45] relative shrink-0 w-full">
         <span>I enjoy being in the middle of what it takes to achieve that. From initial sketches to shipped digital products, I craft intuitive user experiences through design and </span>
@@ -88,7 +88,7 @@ function Email() {
   return (
     <a 
       href="mailto:hello@basito.work" 
-      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[14px] underline hover:decoration-solid"
+      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[16px] underline hover:decoration-solid"
     >
       Email
     </a>
@@ -101,7 +101,7 @@ function X() {
       href="https://twitter.com/theabdulbasit_" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[14px] underline hover:decoration-solid"
+      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[16px] underline hover:decoration-solid"
     >
       X
     </a>
@@ -114,7 +114,7 @@ function LinkedIn() {
       href="https://linkedin.com/in/basit-ogunlana-156821205" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[14px] underline hover:decoration-solid"
+      className="text-[#f5f5f5] decoration-dotted font-['Inter',sans-serif] font-medium text-[16px] underline hover:decoration-solid"
     >
       LinkedIn
     </a>
