@@ -6,6 +6,7 @@ import AcademicBreakPopUp from "./AcademicBreakPopUp";
 function NameTitle() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-start justify-center not-italic relative shrink-0" data-name="Name & Title">
+      <p className="font-['Inter',sans-serif] font-semibold leading-[1.45] relative shrink-0 text-white text-2xl">Basit Ogunlana</p>
       <p className="font-['Inter',sans-serif] font-medium leading-[1.45] relative shrink-0 text-[#f5f5f5] text-[16px]">
         <span>Product Designer, </span>
         <span className="text-[#707070]">currently building GreshFi</span>
