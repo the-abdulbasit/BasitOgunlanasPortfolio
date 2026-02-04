@@ -25,7 +25,7 @@ function BottomGradient() {
 
 function Content() {
   return (
-    <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[40px] items-start leading-[1.45] max-w-[512px] not-italic relative shrink-0 text-[#f5f5f5] text-[16px] w-full" data-name="Content">
+    <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[40px] items-start leading-[1.45] max-w-[504px] not-italic relative shrink-0 text-[#f5f5f5] text-[15px] w-full" data-name="Content">
       <p className="css-4hzbpn relative shrink-0 w-full">{`Works above are from personal projects and commercial work for Sphera, GoBe, Xpress Payments & others.`}</p>
       <p className="css-4hzbpn relative shrink-0 w-full">hello@basito.work</p>
     </div>
