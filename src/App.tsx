@@ -1,6 +1,7 @@
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 import PortfolioWebVersion from './imports/PortfolioWebVersion';
+import ScrollIndicator from "./components/ScrollIndicator";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <PortfolioWebVersion />
       <Analytics />
       <SpeedInsights />
+      <ScrollIndicator />
     </div>
   );
 }
