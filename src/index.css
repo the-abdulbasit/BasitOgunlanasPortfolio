@@ -721,6 +721,10 @@
     font-size: 22px;
   }
 
+  .text-\[30px\] {
+    font-size: 30px;
+  }
+
   .leading-\[1\.45\] {
     --tw-leading: 1.45;
     line-height: 1.45;
