@@ -8,7 +8,7 @@ export default function CodeGoalPopUp() {
           <p className="css-4hzbpn relative shrink-0 text-[#919191] w-full whitespace-nowrap">Later, Javascript. Then, React.</p>
         </div>
       </div>
-      <div aria-hidden="true" className="absolute border-[#8f8f8f] border-[0.5px] border-solid inset-0 pointer-events-none rounded-[12px] shadow-[0px_0px_2px_1px_rgba(255,255,255,0.02)]" />
+      <div aria-hidden="true" className="absolute border-[#666666] border-[0.5px] border-solid inset-0 pointer-events-none rounded-[12px] shadow-[0px_0px_2px_1px_rgba(255,255,255,0.02)]" />
     </div>
   );
 }
