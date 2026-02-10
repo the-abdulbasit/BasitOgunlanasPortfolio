@@ -133,7 +133,7 @@
   /* Override for portfolio - force exact background color */
   body {
     background-color: #121212 !important;
-    color: #e5e5e5 !important;
+    color: #f5f5f5 !important;
   }
 }
 
