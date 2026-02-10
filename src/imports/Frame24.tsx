@@ -5,7 +5,7 @@ function IconParkOutlineDoubleDown() {
     <div className="relative shrink-0 size-[20px]" data-name="icon-park-outline:double-down">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 20 20">
         <g id="icon-park-outline:double-down">
-          <path d={svgPaths.p1f185c00} id="Vector" stroke="var(--stroke-0, #666666)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+          <path d={svgPaths.p1f185c00} id="Vector" stroke="var(--stroke-0, #3d3d3d)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
         </g>
       </svg>
     </div>
