@@ -1,5 +1,7 @@
+import imgBottomGradient from "figma:asset/a94a0d0c9f07f2f8242a0a39140baa0bb20ed7a6.png";
 import AboutSection from "./AboutSection";
 import WorkSection from "./WorkSection";
+import Frame24 from "./Frame24";
 import { useState, useEffect, useRef } from 'react';
 import { WorkNavigation } from '../components/WorkNavigation';
 
@@ -15,17 +17,15 @@ function AboutContainer() {
 
 function BottomGradient() {
   return (
-    <div 
-      className="fixed bottom-0 left-0 w-full h-[64px] pointer-events-none z-10 bg-gradient-to-b from-transparent to-[#0a0a0a]" 
-      style={{ backdropFilter: 'blur(4px)' }}
-      data-name="Bottom Gradient"
-    />
+    <div className="fixed bottom-0 h-[64px] left-0 w-full pointer-events-none z-10" data-name="Bottom Gradient">
+      <img alt="" className="absolute backdrop-blur-[3px] inset-0 max-w-none object-cover pointer-events-none size-full" src={imgBottomGradient} />
+    </div>
   );
 }
 
 function Content() {
   return (
-    <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[40px] items-start leading-[1.45] max-w-[504px] not-italic relative shrink-0 text-[#f5f5f5] text-[15px] w-full" data-name="Content">
+    <div className="content-stretch flex flex-col font-['Inter:Regular',sans-serif] font-normal gap-[40px] items-start leading-[1.45] max-w-[512px] not-italic relative shrink-0 text-[#f5f5f5] text-[16px] w-full" data-name="Content">
       <p className="css-4hzbpn relative shrink-0 w-full">{`Works above are from personal projects and commercial work for Sphera, GoBe, Xpress Payments & others.`}</p>
       <p className="css-4hzbpn relative shrink-0 w-full">hello@basito.work</p>
     </div>
@@ -58,6 +58,7 @@ function OuterContainer() {
 
 export default function PortfolioWebVersion() {
   const [showNavigation, setShowNavigation] = useState(false);
+  const [showScrollDownPrompt, setShowScrollDownPrompt] = useState(true);
   const [navigationDirection, setNavigationDirection] = useState<'up' | 'down'>('down');
   const [currentWorkIndex, setCurrentWorkIndex] = useState(0);
   const workSectionRef = useRef<HTMLDivElement>(null);
@@ -72,6 +73,13 @@ export default function PortfolioWebVersion() {
       const isInWorkSection = rect.top < window.innerHeight && rect.bottom > 0;
 
       setShowNavigation(isInWorkSection);
+      
+      // Hide scroll down prompt when we reach the work section
+      if (rect.top < window.innerHeight * 0.8) {
+        setShowScrollDownPrompt(false);
+      } else {
+        setShowScrollDownPrompt(true);
+      }
 
       // Determine scroll direction
       const currentScrollY = window.scrollY;
@@ -112,6 +120,14 @@ export default function PortfolioWebVersion() {
         <WorkSection workImagesRef={workImagesRef} />
       </div>
       <OuterContainer />
+      
+      {/* Scroll down to explore - positioned 20px above gradient */}
+      {showScrollDownPrompt && (
+        <div className="fixed bottom-[84px] left-0 right-0 z-10 flex justify-center pointer-events-none">
+          <Frame24 />
+        </div>
+      )}
+      
       <BottomGradient />
       
       {showNavigation && (

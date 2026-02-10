@@ -5,8 +5,8 @@ import AcademicBreakPopUp from "./AcademicBreakPopUp";
 
 function NameTitle() {
   return (
-    <div className="content-stretch flex flex-col gap-[3px] items-start justify-center not-italic relative shrink-0" data-name="Name & Title">
-      <p className="font-['Inter',sans-serif] font-semibold leading-[1.45] relative shrink-0 text-[24px] text-white tracking-[-0.72px]">Basit Ogunlana</p>
+    <div className="content-stretch flex flex-col gap-[4px] items-start justify-center not-italic relative shrink-0" data-name="Name & Title">
+      <p className="font-['Inter',sans-serif] font-semibold leading-[1.45] relative shrink-0 text-[22px] text-white tracking-[-0.72px]">Basit Ogunlana</p>
       <p className="font-['Inter',sans-serif] font-medium leading-[1.45] relative shrink-0 text-[#f5f5f5] text-[15px]">
         <span>Product Designer, </span>
         <span className="text-[#707070]">currently building GreshFi</span>
@@ -21,7 +21,7 @@ function About() {
 
   return (
     <div className="content-stretch flex flex-col font-['Inter',sans-serif] font-normal gap-[20px] items-start not-italic relative shrink-0 text-[#f5f5f5] text-[15px] w-full" data-name="About">
-      <p className="leading-[1.45] relative shrink-0 w-full">Designers often say the best designs are subtle — I believe they are not just subtle, rather they engage the user's curiosity and impress.</p>
+      <p className="leading-[1.45] relative shrink-0 w-full">I surmise that the most satisfying interactions occur when sparks of curiosity meets memorable experiences—the allure of design as I like to call it.</p>
       <div className="leading-[1.45] relative shrink-0 w-full">
         <span>I enjoy being in the middle of what it takes to achieve that. From initial sketches to shipped digital products, I craft intuitive user experiences through design and </span>
         <span 
@@ -133,7 +133,7 @@ function Contacts() {
 
 function TextContainer() {
   return (
-    <div className="content-stretch flex flex-col gap-[40px] items-start max-w-[504px] relative shrink-0 w-full" data-name="Text container">
+    <div className="content-stretch flex flex-col gap-[40px] items-start max-w-[512px] relative shrink-0 w-full" data-name="Text container">
       <NameTitle />
       <About />
       <Contacts />
