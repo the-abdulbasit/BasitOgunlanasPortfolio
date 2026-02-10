@@ -114,7 +114,7 @@ export default function PortfolioWebVersion() {
   };
 
   return (
-    <div className="bg-[#050505] flex flex-col items-start relative w-full" data-name="Portfolio (Web version)">
+    <div className="bg-[#121212] flex flex-col items-start relative w-full" data-name="Portfolio (Web version)">
       <AboutContainer />
       <div ref={workSectionRef} className="w-full">
         <WorkSection workImagesRef={workImagesRef} />
