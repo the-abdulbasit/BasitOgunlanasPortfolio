@@ -129,11 +129,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-
+  
   /* Override for portfolio - force exact background color */
   body {
     background-color: #121212 !important;
-    color: #f5f5f5 !important;
+    color: #e5e5e5 !important;
   }
 }
 
