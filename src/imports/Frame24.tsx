@@ -15,7 +15,7 @@ function IconParkOutlineDoubleDown() {
 export default function Frame() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-center justify-center relative size-full">
-      <p className="font-['Inter:Regular',sans-serif] font-normal leading-[1.45] not-italic relative shrink-0 text-[#919191] text-[14px]">Scroll down to explore</p>
+      <p className="font-['Inter:Regular',sans-serif] font-normal leading-[1.45] not-italic relative shrink-0 text-[#4c4c4c] text-[14px]">Scroll down to explore</p>
       <IconParkOutlineDoubleDown />
     </div>
   );
